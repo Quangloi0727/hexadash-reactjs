@@ -32,7 +32,7 @@ function ProviderConfig() {
     if (!unmounted) {
       setPath(window.location.pathname);
     }
-    // eslint-disable-next-line no-return-assign
+    // eslint-disable-next-line no-return-assign  dddd
     return () => (unmounted = true);
   }, [setPath]);
 
